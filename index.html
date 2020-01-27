@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsivenes.css">
+	<title>Refugee Entreprise</title>
+</head>
+<body>
+	<!-- my header starts -->
+	<div class="header">
+		
+		<a href="#home" style="float: left;"><img src="Lo.jpg" class="logg"></a>
+	
+		<label class="menu" onclick="openNav()">&#9776;</label>
+	<nav>
+		<a onclick="openModal()">DONATE</a>
+		<a href="#footer">CONTACT US</a>
+		<a href="#story">SUCCES STORIES</a>
+		<a href="#about">ABOUT</a>
+	</nav>
+	</div>
+	<label id="menu-c">
+		<label class="close" onclick="closeNav()">&times;</label>
+		<ul>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#story">SUCCES STORIES</a></li>
+			<li><a href="#footer">CONTACT US</a></li>
+			<li><a onclick="openModal()">DONATE</a></li>
+		</ul>
+	</label>
+	<div id="modall">
+		<label class="close" onclick="closeModal()">&times;</label>
+		<form action="">
+			<input type="text" name="" id="">
+			<input type="email" name="" id="">
+			<input type="button" value="">
+		</form>
+	</div>
+<!-- my header ends -->
+<br><br>
+<!-- home page starts -->
+<section id="home">
+<div id="demo" class="carousel slide" data-ride="carousel" style="position: fixed;width: 96%;margin-left: 2%;">
+	<ul class="carousel-indicators">
+	  <li data-target="#demo" data-slide-to="0" class="active"></li>
+	  <li data-target="#demo" data-slide-to="1"></li>
+	  <li data-target="#demo" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="un.jpg" alt="Los Angeles">
+		<div class="carousel-caption" style="font-size: 3em;text-shadow: 2px 4px 10px black;">
+		  <h4 style="font-size: 0.8em;">WELCOME TO</h4>
+		  <p class="p">RWANDA REFUGEE INTREPRENEUR SERVICESS</p>
+		</div>   
+	  </div>
+	  <div class="carousel-item">
+		<img src="manu.jpg" alt="Chicago">
+		<div class="carousel-caption" style="font-size: 3em;text-shadow: 2px 4px 10px black;">
+			<p>GIHEMBE INTREPRENEURS SERVICES</p>
+			<h3><button class="btn btn-danger">See More</button></h3>
+		</div>   
+	  </div>
+	  <div class="carousel-item">
+		<img src="kiz.jpg" alt="New York">
+		<div class="carousel-caption" style="font-size: 3em;text-shadow: 2px 4px 10px black;">
+		  <p>KIZIBA INTREPRENEURS SERVICES</p>
+		  <h3><button class="btn btn-danger">See More</button class="btn btn-danger"></h3>
+		</div>   
+	  </div>
+	</div>
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+	  <span class="carousel-control-prev-icon"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+	  <span class="carousel-control-next-icon"></span>
+	</a>
+  </div>
+</section> 
+<!-- homepage ends-->
+<br><br><br><br><br><br><br><br>
+<!-- about us start -->
+	<section id="about">
+		<b class="abou">ABOUT US</b><b class="lin"></b><b class="lin2"></b>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="kiz.jpg" alt="" style="width: 500px; height: 500px;">
+			</div>
+				<div class="col-md-4">
+					<p>Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Iste consequatur 
+					adipisci magnam distinctio sint sequi perferendis
+					minus perspiciatis nihil. Dolore quod a doloremque
+					commodi modi nulla vel dolor, sequi aperiam?
+					</p>
+					<p>Lorem ipsum dolor, sit amet
+						consectetur adipisicing elit. Iste consequatur 
+						adipisci magnam distinctio sint sequi perferendis
+						minus perspiciatis nihil. Dolore quod a doloremque
+						commodi modi nulla vel dolor, sequi aperiam?
+						</p>
+						<p>Lorem ipsum dolor, sit amet
+							consectetur adipisicing elit. Iste consequatur 
+							adipisci magnam distinctio sint sequi perferendis
+							minus perspiciatis nihil. Dolore quod a doloremque
+							commodi modi nulla vel dolor, sequi aperiam?
+							</p>
+							<p>Lorem ipsum dolor, sit amet
+								consectetur adipisicing elit. Iste consequatur 
+								adipisci magnam distinctio sint sequi perferendis
+								minus perspiciatis nihil. Dolore quod a doloremque
+								commodi modi nulla vel dolor, sequi aperiam?
+								</p>
+				</div>
+		</div>
+	</section>
+<!-- about us end -->
+
+<!-- succes story sarts -->
+	<section id="story">
+		<b class="hea">SUCCES STORIES</b><b class="lin"></b><b class="lin2"></b>
+		<br><br><br>
+		<div class="row">
+			<div class="col-md-3">
+				<img src="kiz.jpg" alt="" style="height: 200px; width: 200px;">
+				<p>Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Iste consequatur 
+					adipisci magnam distinctio sint sequi perferendis
+					minus perspiciatis nihil. Dolore quod a doloremque
+					commodi modi nulla vel dolor, sequi aperiam?
+					</p>
+			</div>
+
+			<div class="col-md-3">
+				<img src="kiz.jpg" alt="" style="height: 200px; width: 200px;">
+				<p>Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Iste consequatur 
+					adipisci magnam distinctio sint sequi perferendis
+					minus perspiciatis nihil. Dolore quod a doloremque
+					commodi modi nulla vel dolor, sequi aperiam?
+					</p>
+			</div>
+
+			<div class="col-md-3">
+				<img src="kiz.jpg" alt="" style="height: 200px; width: 200px;">
+				<p>Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Iste consequatur 
+					adipisci magnam distinctio sint sequi perferendis
+					minus perspiciatis nihil. Dolore quod a doloremque
+					commodi modi nulla vel dolor, sequi aperiam?
+					</p>
+			</div>
+
+			<div class="col-md-3">
+				<img src="kiz.jpg" alt="" style="height: 200px; width: 200px;">
+				<p>Lorem ipsum dolor, sit amet
+					consectetur adipisicing elit. Iste consequatur 
+					adipisci magnam distinctio sint sequi perferendis
+					minus perspiciatis nihil. Dolore quod a doloremque
+					commodi modi nulla vel dolor, sequi aperiam?
+					</p>
+			</div>
+		
+		</div>
+		<br><br><br><br><br><br><br><br>
+	</section>
+	<!-- succes story ends -->
+
+	<!-- contact us sarts -->
+	<section id="footer">
+		<b class="hea">CONTACT US</h1 class="hea"></b><b class="lin"></b><b class="lin2"></b>
+	</section>
+	<!-- contact us end -->
+</body>
+<script src="script.js"></script>
+</html>

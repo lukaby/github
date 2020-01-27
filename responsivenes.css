@@ -1,0 +1,59 @@
+@media (max-width:900px){
+    .menu{
+      font-size: 2em;
+      float: right;
+      margin-right: 40px;
+      display: block;
+    }
+    .header nav{
+      
+      display:none;
+    }
+   
+   #modall form{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-left: 40px;
+        position: absolute;
+        height: 70vh;
+        width: 400px;
+        background-color:transparent;
+        box-shadow: 2px 4px 8px black;
+      }
+      
+          
+      
+      .carousel-caption h3{
+            font-size: 0.5em;
+            margin-bottom: 120px;
+      }
+      .carousel-caption p{
+        font-size: 0.8em;
+
+  }
+ .p{
+     margin-bottom: 50px;
+ }
+ /* section headings */
+.hea{
+    color: #0d0d0d;
+    position: absolute;
+    margin-top: -90px;
+    text-align: center;
+    font-size: 2.4em;
+    width: 100%;
+    text-shadow: 2px 4px 8px white;
+  
+  }
+  .lin{
+   display: none;
+    
+  }
+  .lin2{
+    display: none;
+    
+  }
+ 
+   }
